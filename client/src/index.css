@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background-color: #74b9ff !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.small-image {
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+.big-image {
+  height: 400px;
+  width: 100% !important;
+}
+
+.btn {
+  background-color: #74b9ff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.show > .dropdown-menu {
+  display: block;
+  position: absolute;
+}
+
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+select {
+  width: 100%;
+  height: auto !important;
+}
+
+.booked {
+  color: green;
+}
+
+.cancelled {
+  color: red;
+}
+
+.pointer {
+  cursor: pointer;
+}
